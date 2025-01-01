@@ -1,0 +1,149 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #d63384;
+    /* Pink accent color */
+}
+
+/* General Background for Pages */
+.page-background {
+    background-color: #ffebf2;
+    /* Light pink background */
+    min-height: 100vh;
+    /* Ensure the background covers the entire viewport */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Content Container Centering */
+.page-container {
+    max-width: 800px;
+    background-color: #fff;
+    /* White content background */
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.page-container h2 {
+    color: #d63384;
+    /* Pink title color */
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.page-container p {
+    color: #555;
+    /* Slightly muted text color */
+    line-height: 1.6;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #f8f9fa;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.navbar a {
+    color: #d63384;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ff99c8;
+}
+
+.navbar-scrolled {
+    background-color: #ffebf2 !important;
+    border-color: #d63384;
+}
+
+/* Hero Section */
+header {
+    background-color: #ffebf2;
+    color: #d63384;
+    padding: 100px 0;
+    text-align: center;
+}
+
+header .btn {
+    background-color: #d63384;
+    color: #fff;
+    border: none;
+}
+
+header .btn:hover {
+    background-color: #ff99c8;
+    color: #fff;
+}
+
+/* Section Styles */
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.card {
+    border: 1px solid #ff99c8;
+}
+
+.card-title {
+    color: #d63384;
+}
+
+/* Form Styles */
+form {
+    background-color: #ffebf2;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form .btn {
+    background-color: #d63384;
+    color: #fff;
+    border: none;
+}
+
+form .btn:hover {
+    background-color: #ff99c8;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #d63384;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    header {
+        padding: 80px 20px;
+    }
+
+    section {
+        padding: 40px 20px;
+    }
+}
